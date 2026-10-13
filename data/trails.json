@@ -1,0 +1,201 @@
+{
+  "trails": [
+    {
+      "id": "javascript",
+      "technology": "JavaScript",
+      "description": "Dominate modern web development with JavaScript, from the basics to advanced patterns.",
+      "duration": "12 weeks",
+      "levels": ["beginner", "intermediate", "advanced"],
+      "modules": {
+        "beginner": [
+          { "week": 1, "title": "Variables, Types and Operators", "topics": ["let/const/var", "primitive types", "arithmetic operators"] },
+          { "week": 2, "title": "Control Flow", "topics": ["if/else", "switch", "ternary operator"] },
+          { "week": 3, "title": "Functions and Scope", "topics": ["function declarations", "arrow functions", "closures"] },
+          { "week": 4, "title": "Arrays and Objects", "topics": ["array methods", "object destructuring", "spread operator"] }
+        ],
+        "intermediate": [
+          { "week": 5, "title": "Asynchrony", "topics": ["callbacks", "Promises", "async/await"] },
+          { "week": 6, "title": "DOM Manipulation", "topics": ["querySelector", "events", "dynamic rendering"] },
+          { "week": 7, "title": "Modules and Bundlers", "topics": ["ES Modules", "CommonJS", "Webpack basics"] },
+          { "week": 8, "title": "Error Handling and Testing", "topics": ["try/catch", "custom errors", "unit testing with Jest"] }
+        ],
+        "advanced": [
+          { "week": 9, "title": "Design Patterns", "topics": ["Observer", "Factory", "Singleton"] },
+          { "week": 10, "title": "Performance", "topics": ["debounce/throttle", "lazy loading", "memory management"] },
+          { "week": 11, "title": "Functional JavaScript", "topics": ["pure functions", "immutability", "composition"] },
+          { "week": 12, "title": "Capstone Project", "topics": ["full SPA application", "testing", "deployment"] }
+        ]
+      }
+    },
+    {
+      "id": "python",
+      "technology": "Python",
+      "description": "Learn Python for data science, automation, web development and beyond.",
+      "duration": "10 weeks",
+      "levels": ["beginner", "intermediate", "advanced"],
+      "modules": {
+        "beginner": [
+          { "week": 1, "title": "Python Fundamentals", "topics": ["variables", "input/output", "data types"] },
+          { "week": 2, "title": "Control Structures", "topics": ["if/elif/else", "for/while loops", "list comprehension"] },
+          { "week": 3, "title": "Functions and Modules", "topics": ["def", "parameters", "importing modules"] },
+          { "week": 4, "title": "Data Structures", "topics": ["lists", "dicts", "sets", "tuples"] }
+        ],
+        "intermediate": [
+          { "week": 5, "title": "OOP in Python", "topics": ["classes", "inheritance", "dunder methods"] },
+          { "week": 6, "title": "File I/O and Exceptions", "topics": ["open/read/write", "try/except", "context managers"] },
+          { "week": 7, "title": "Libraries for Data", "topics": ["NumPy basics", "pandas basics", "matplotlib"] }
+        ],
+        "advanced": [
+          { "week": 8, "title": "Web with Flask", "topics": ["routes", "templates", "REST APIs"] },
+          { "week": 9, "title": "Concurrency", "topics": ["threading", "asyncio", "multiprocessing"] },
+          { "week": 10, "title": "Capstone Project", "topics": ["data pipeline", "CLI tool", "testing with pytest"] }
+        ]
+      }
+    },
+    {
+      "id": "typescript",
+      "technology": "TypeScript",
+      "description": "Add strong typing to JavaScript and build scalable, maintainable applications.",
+      "duration": "8 weeks",
+      "levels": ["beginner", "intermediate", "advanced"],
+      "modules": {
+        "beginner": [
+          { "week": 1, "title": "TypeScript Setup", "topics": ["tsconfig", "basic types", "interfaces"] },
+          { "week": 2, "title": "Functions and Generics", "topics": ["typed functions", "generics basics", "type aliases"] }
+        ],
+        "intermediate": [
+          { "week": 3, "title": "Advanced Types", "topics": ["union", "intersection", "mapped types"] },
+          { "week": 4, "title": "Classes and Decorators", "topics": ["access modifiers", "abstract classes", "decorators"] },
+          { "week": 5, "title": "Modules and Namespaces", "topics": ["ES modules", "declaration files", "path mapping"] }
+        ],
+        "advanced": [
+          { "week": 6, "title": "Type-safe APIs", "topics": ["Zod", "tRPC basics", "typed fetch"] },
+          { "week": 7, "title": "Monorepos and DX", "topics": ["Turborepo", "shared types", "code generation"] },
+          { "week": 8, "title": "Capstone Project", "topics": ["typed REST API", "testing with Vitest", "CI/CD"] }
+        ]
+      }
+    },
+    {
+      "id": "react",
+      "technology": "React",
+      "description": "Build dynamic user interfaces with the most popular front-end library.",
+      "duration": "10 weeks",
+      "levels": ["beginner", "intermediate", "advanced"],
+      "modules": {
+        "beginner": [
+          { "week": 1, "title": "React Fundamentals", "topics": ["JSX", "components", "props"] },
+          { "week": 2, "title": "State and Events", "topics": ["useState", "event handlers", "conditional rendering"] },
+          { "week": 3, "title": "Lists and Forms", "topics": ["map/key", "controlled inputs", "form validation"] }
+        ],
+        "intermediate": [
+          { "week": 4, "title": "useEffect and Lifecycle", "topics": ["side effects", "cleanup", "dependency array"] },
+          { "week": 5, "title": "Context and useReducer", "topics": ["createContext", "useContext", "useReducer"] },
+          { "week": 6, "title": "React Router", "topics": ["BrowserRouter", "nested routes", "protected routes"] },
+          { "week": 7, "title": "Data Fetching", "topics": ["fetch API", "React Query basics", "loading states"] }
+        ],
+        "advanced": [
+          { "week": 8, "title": "Performance", "topics": ["useMemo", "useCallback", "React.memo", "lazy/Suspense"] },
+          { "week": 9, "title": "Custom Hooks and Patterns", "topics": ["custom hooks", "compound components", "render props"] },
+          { "week": 10, "title": "Capstone Project", "topics": ["full React app", "testing with Vitest + RTL", "deployment"] }
+        ]
+      }
+    },
+    {
+      "id": "nodejs",
+      "technology": "Node.js",
+      "description": "Build fast, scalable server-side applications with JavaScript.",
+      "duration": "10 weeks",
+      "levels": ["beginner", "intermediate", "advanced"],
+      "modules": {
+        "beginner": [
+          { "week": 1, "title": "Node.js Fundamentals", "topics": ["event loop", "modules", "npm"] },
+          { "week": 2, "title": "File System and Streams", "topics": ["fs module", "streams", "buffers"] },
+          { "week": 3, "title": "HTTP Server", "topics": ["http module", "request/response", "routing basics"] }
+        ],
+        "intermediate": [
+          { "week": 4, "title": "Express.js", "topics": ["middleware", "routing", "error handling"] },
+          { "week": 5, "title": "REST APIs", "topics": ["CRUD", "status codes", "body-parser", "cors"] },
+          { "week": 6, "title": "Databases", "topics": ["SQLite basics", "MongoDB basics", "ORM/ODM intro"] },
+          { "week": 7, "title": "Authentication", "topics": ["JWT", "bcrypt", "session cookies"] }
+        ],
+        "advanced": [
+          { "week": 8, "title": "Testing APIs", "topics": ["Jest + Supertest", "mocking", "integration tests"] },
+          { "week": 9, "title": "Microservices", "topics": ["service communication", "message queues", "Docker basics"] },
+          { "week": 10, "title": "Capstone Project", "topics": ["complete REST API", "CI/CD", "deployment on Railway"] }
+        ]
+      }
+    }
+  ],
+  "challenges": {
+    "javascript": {
+      "beginner": [
+        { "id": "js-b-1", "title": "FizzBuzz", "description": "Print numbers 1 to 100. Multiples of 3 print 'Fizz', multiples of 5 print 'Buzz', multiples of both print 'FizzBuzz'.", "hint": "Use the modulo operator (%)." },
+        { "id": "js-b-2", "title": "Palindrome Checker", "description": "Write a function that returns true if a string is a palindrome.", "hint": "Reverse the string and compare to the original." }
+      ],
+      "intermediate": [
+        { "id": "js-i-1", "title": "Async Weather Simulator", "description": "Simulate an async weather API call using Promises. Return a random temperature between -10 and 40°C after 1 second.", "hint": "Use new Promise and setTimeout." },
+        { "id": "js-i-2", "title": "Event Emitter", "description": "Implement a simple EventEmitter class with on(), off() and emit() methods.", "hint": "Store listeners in an object keyed by event name." }
+      ],
+      "advanced": [
+        { "id": "js-a-1", "title": "Observable Pattern", "description": "Implement a reactive Observable class that supports subscribe, unsubscribe and pipe operators.", "hint": "Look at how RxJS Observables work internally." },
+        { "id": "js-a-2", "title": "Memoize Function", "description": "Write a generic memoize() higher-order function that caches results based on arguments.", "hint": "Use a Map and JSON.stringify for the cache key." }
+      ]
+    },
+    "python": {
+      "beginner": [
+        { "id": "py-b-1", "title": "Word Counter", "description": "Write a function that counts the frequency of each word in a text string.", "hint": "Use a dict and split()." },
+        { "id": "py-b-2", "title": "Caesar Cipher", "description": "Implement a Caesar cipher encoder and decoder.", "hint": "Use ord() and chr() to shift characters." }
+      ],
+      "intermediate": [
+        { "id": "py-i-1", "title": "Task Manager CLI", "description": "Create a command-line task manager that stores tasks in a JSON file with add, list, done and remove commands.", "hint": "Use argparse and json module." },
+        { "id": "py-i-2", "title": "CSV Analyzer", "description": "Read a CSV file and compute average, min and max for each numeric column.", "hint": "Use the csv module and avoid pandas for this exercise." }
+      ],
+      "advanced": [
+        { "id": "py-a-1", "title": "Mini ORM", "description": "Build a lightweight ORM that maps Python classes to SQLite tables, supporting save(), find() and delete().", "hint": "Use sqlite3 and Python decorators." },
+        { "id": "py-a-2", "title": "Async Web Scraper", "description": "Write an async web scraper that fetches multiple URLs concurrently and returns a dict of URL → status code.", "hint": "Use aiohttp and asyncio.gather()." }
+      ]
+    },
+    "typescript": {
+      "beginner": [
+        { "id": "ts-b-1", "title": "Typed Stack", "description": "Implement a generic Stack<T> class with push, pop, peek and isEmpty methods.", "hint": "Use TypeScript generics." },
+        { "id": "ts-b-2", "title": "User Validator", "description": "Define an interface for a User and write a validation function that checks required fields.", "hint": "Use type guards and interfaces." }
+      ],
+      "intermediate": [
+        { "id": "ts-i-1", "title": "Mapped Type Builder", "description": "Create a utility type Readonly<T> from scratch without using the built-in, then create Required<T>.", "hint": "Use mapped types with -? modifier." },
+        { "id": "ts-i-2", "title": "Result Type", "description": "Implement a Result<T, E> discriminated union and write helper functions ok() and err().", "hint": "Use TypeScript discriminated unions." }
+      ],
+      "advanced": [
+        { "id": "ts-a-1", "title": "Type-Safe Event Bus", "description": "Build an EventBus where event names and payloads are fully type-safe using a generic map.", "hint": "Use conditional types and keyof." },
+        { "id": "ts-a-2", "title": "Deep Readonly", "description": "Write a recursive DeepReadonly<T> utility type.", "hint": "Use conditional types and recursion." }
+      ]
+    },
+    "react": {
+      "beginner": [
+        { "id": "re-b-1", "title": "Counter App", "description": "Build a counter with increment, decrement and reset buttons.", "hint": "Use useState hook." },
+        { "id": "re-b-2", "title": "Todo List", "description": "Create a todo list where you can add, complete and remove items.", "hint": "Store tasks in an array state." }
+      ],
+      "intermediate": [
+        { "id": "re-i-1", "title": "useFetch Hook", "description": "Write a custom useFetch(url) hook that returns { data, loading, error }.", "hint": "Use useEffect and AbortController." },
+        { "id": "re-i-2", "title": "Theme Switcher", "description": "Implement a dark/light theme switcher using Context API without any external library.", "hint": "Use createContext and a ThemeProvider component." }
+      ],
+      "advanced": [
+        { "id": "re-a-1", "title": "Virtual List", "description": "Implement a virtualized list component that only renders visible rows for large datasets.", "hint": "Calculate visible window using scroll position and item height." },
+        { "id": "re-a-2", "title": "Form Builder", "description": "Create a generic form builder component driven by a JSON schema configuration.", "hint": "Use a reducer and dynamic component mapping." }
+      ]
+    },
+    "nodejs": {
+      "beginner": [
+        { "id": "nd-b-1", "title": "File Walker", "description": "Write a script that recursively lists all files in a directory with their sizes.", "hint": "Use fs.readdirSync recursively." },
+        { "id": "nd-b-2", "title": "Simple HTTP Server", "description": "Create an HTTP server without Express that responds to GET /hello with a JSON greeting.", "hint": "Use the built-in http module." }
+      ],
+      "intermediate": [
+        { "id": "nd-i-1", "title": "REST API with Express", "description": "Build a CRUD REST API for a 'books' resource stored in memory.", "hint": "Use Express router and an in-memory array." },
+        { "id": "nd-i-2", "title": "JWT Auth Middleware", "description": "Implement a JWT-based authentication middleware for Express.", "hint": "Use jsonwebtoken package and Authorization header." }
+      ],
+      "advanced": [
+        { "id": "nd-a-1", "title": "Rate Limiter Middleware", "description": "Build an in-memory rate limiter middleware that limits requests per IP per minute.", "hint": "Use a Map with timestamps and sliding window algorithm." },
+        { "id": "nd-a-2", "title": "WebSocket Chat", "description": "Create a real-time chat server using WebSockets and a broadcast mechanism.", "hint": "Use the 'ws' package and iterate over connected clients." }
+      ]
+    }
+  }
+}
